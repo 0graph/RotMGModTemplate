@@ -45,7 +45,7 @@ namespace BasicMelonMod
 
         public override void OnGUI()
         {
-            // This can run multiple times per frame but should only be used for GUI interaction.
+            // This is called on every IMGUI event. Only use this for IMGUI interaction as it can run multiple times per frame.
         }
 
         public override void OnApplicationQuit()
